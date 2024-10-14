@@ -1,0 +1,80 @@
+.padding {
+    padding: 3rem !important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-header {
+    background-color: #4ca746;
+    color: rgb(0, 0, 0);
+    padding: 1rem 1.5rem;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(76, 167, 70, 0.5) !important;
+    border-color: #4ca746;
+}
+
+.btn-success {
+    background-color: #4ca746;
+    border-color: #4ca746;
+}
+
+.btn-success:hover {
+    background-color: #3a8f39;
+    border-color: #3a8f39;
+}
+
+@media screen and (max-width: 750px) {
+    .padding {
+        padding: 1rem !important;
+    }
+
+    .card {
+        margin: 0 1rem;
+        padding-bottom: 80px;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card-header img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    .btn-lg {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
