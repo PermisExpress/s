@@ -10,9 +10,7 @@ h1{
 #wrapper{
     width: 95%;
     margin: 20px auto;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+   
  
 }
 body{
