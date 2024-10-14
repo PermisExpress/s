@@ -1,7 +1,7 @@
 header {
     padding: 10vh;
     filter: blur(2px);
-    background-position-x: center;
+    position: relative;
 }
 h1{
     text-align: center;
