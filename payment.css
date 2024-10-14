@@ -1,9 +1,10 @@
 header {
-    background-image: url('Images/header.jpeg');
-    padding: 20vh;
-    background-repeat: no-repeat;
+    padding: 10vh;
+    filter: blur(2px);
     background-position-x: center;
-    filter: blur(2px); /* Adjust the blur level as needed */
+}
+h1{
+    text-align: center;
 }
 body{
   font-family: "Roboto", sans-serif;
